@@ -2,6 +2,10 @@
     font-weight: 600; 
     font-family: 'cursive', Lucida Handwriting, serif;
   }
+ .logo{
+    height: 60px;
+    width: auto;
+  }
   .heading{
     align-items: center;
     justify-items: center;
