@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-weight: 600; 
+    font-family: 'cursive', Lucida Handwriting, serif;
+  }
+  .heading{
+    align-items: center;
+    justify-items: center;
+  }
+  .feature-icon {
+  width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;}
+  
+  .py-5check{
+    margin-top: 20px;
+    background-color: rgb(195, 195, 195);
+    border: 10px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    border-top: 30px;
+    padding-top: 30px;
+  }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
